@@ -1,20 +1,20 @@
-Maria,Jardim das Flores,4,1,True,True,False
-Pedro,Caraguá,4,0,True,True,False
-Joao,Jardim das Flores,0,0,True,False,False
-Noé,Caraguá,0,0,True,False,False
-Ana,São José,3,2,True,True,False
-Carlos,Ubatuba,4,1,True,True,False
-Lucas,Jardim das Flores,0,0,True,False,False
-Fernanda,Caraguá,0,0,True,False,False
-Bruna,Taubaté,3,0,True,True,False
-Ricardo,Ubatuba,0,0,True,False,False
-Luiza,São José,0,0,True,False,False
-Marcos,Taubaté,0,0,True,False,False
-Gabriel,Jardim das Flores,2,0,True,True,False
-Amanda,São José,0,0,True,False,False
-Rafael,Ubatuba,0,0,True,False,False
-Carla,Caraguá,3,1,True,True,False
-Thiago,Taubaté,0,0,True,False,False
-Renata,São José,0,0,True,False,False
-Paulo,Ubatuba,4,2,True,True,False
-Julia,Jardim das Flores,0,0,True,False,False
+Maria,Jardim das Flores,4,0,True,True
+Pedro,Caraguá,4,0,True,True
+Joao,Jardim das Flores,0,0,True,False
+Noé,Caraguá,0,0,True,False
+Ana,São José,3,0,True,True
+Carlos,Ubatuba,4,0,True,True
+Lucas,Jardim das Flores,0,0,True,False
+Fernanda,Caraguá,0,0,True,False
+Bruna,Taubaté,3,0,True,True
+Ricardo,Ubatuba,0,0,True,False
+Luiza,São José,0,0,True,False
+Marcos,Taubaté,0,0,True,False
+Gabriel,Jardim das Flores,2,0,True,True
+Amanda,São José,0,0,True,False
+Rafael,Ubatuba,0,0,True,False
+Carla,Caraguá,3,0,True,True
+Thiago,Taubaté,0,0,True,False
+Renata,São José,0,0,True,False
+Paulo,Ubatuba,4,0,True,True
+Julia,Jardim das Flores,0,0,True,False
