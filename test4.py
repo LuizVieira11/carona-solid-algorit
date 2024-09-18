@@ -9,7 +9,7 @@ os.system('cls') or None
 arquivo=open('users.txt','r',encoding='utf-8')
 
 class User:
-    def __init__(self, name, destination, maxPassengers=0, reservedSeats=0, willTravel=False, isDriver=False):
+    def __init__(self, name, destination=[], maxPassengers=0, reservedSeats=0, willTravel=False, isDriver=False):
         self.name = name
         self.destination = destination
         self.maxPassengers = maxPassengers
@@ -18,7 +18,7 @@ class User:
         self.isDriver = isDriver
         
     def __str__(self):
-        return f"{self.name}, Destino: {self.destination}"
+        return f"{self.name}, {self.destination}"
 
 passageiros = []
 motoristas = []
@@ -29,44 +29,31 @@ while True:
     linha=linha.replace("\t","")
     if len(linha) == 0:
         break
-    args = linha.split(",")
-    print(args)
+    args = linha.split(";")
     
-    if eval(args[5]):
-        motoristas.append(User(name=args[0], destination=args[1], maxPassengers=int(args[2]), 
-                               reservedSeats=int(args[3]), willTravel=eval(args[4]), isDriver=eval(args[5])))
+    list = args[1]
+    
+    if eval(args[4]):
+        motoristas.append(User(name=args[0], destination=list, maxPassengers=int(args[2]), 
+                               reservedSeats=0, willTravel=eval(args[3]), isDriver=eval(args[4])))
     else:
-        passageiros.append(User(name=args[0], destination=args[1], maxPassengers=int(args[2]), 
-                                reservedSeats=int(args[3]), willTravel=eval(args[4]), isDriver=eval(args[5])))
+        passageiros.append(User(name=args[0], destination=list, maxPassengers=0, 
+                                reservedSeats=0, willTravel=eval(args[3]), isDriver=eval(args[4])))
 
 G.add_nodes_from(passageiros, bipartite=0)  # Adicionando objetos inteiros
-G.add_nodes_from(motoristas, bipartite=1)  # Adicionando objetos inteiros
+G.add_nodes_from(motoristas, bipartite=1)  # Adicionando objetos inteiros       
 
 arestas = []
-passageiros_alistados=[]
 
 # Distribuindo passageiros de maneira justa
 for p in passageiros:
-    motoristas_disponiveis = [m for m in motoristas if m.destination == p.destination and m.reservedSeats < m.maxPassengers]
+    motoristas_disponiveis = [m for m in motoristas if p.destination in m.destination and m.reservedSeats < m.maxPassengers]
     if motoristas_disponiveis:
         # Ordena os motoristas pela quantidade de vagas disponíveis, para priorizar motoristas menos ocupados
         motoristas_disponiveis.sort(key=lambda m: m.reservedSeats)
         motorista_selecionado = motoristas_disponiveis[0]
         motorista_selecionado.reservedSeats += 1
-        passageiros_alistados.append(p)
         arestas.append((motorista_selecionado, p))  # Conecta motorista e passageiro no grafo
-
-# limitation = 0
-# while limitation < 5:
-#     # Criando as arestas com base no destino e disponibilidade de vagas
-#     for p in passageiros:
-#         for m in motoristas:
-#             if p.destination == m.destination and m.reservedSeats < m.maxPassengers:
-#                 if m.reservedSeats <= limitation and p not in passageiros_alistados:
-#                     m.reservedSeats += 1
-#                     passageiros_alistados.append(p)
-#                     arestas.append((m, p))  # Armazenando objetos completos
-    # limitation += 1
             
 
 G.add_edges_from(arestas)
@@ -87,6 +74,7 @@ for motorista, passageiro in arestas:
     
     associacao_motoristas[motorista].append(passageiro)
         
+print(associacao_motoristas)
 
 # Exibindo as associações
 print("Emparelhamento Motoristas e Passageiros:")
