@@ -1,0 +1,79 @@
+Joana;[São Paulo, Campinas, Santos];4;True;True
+Henrique;Caraguá;0;True;False
+Felipe;[Rio de Janeiro, Niterói, Petrópolis];3;True;True
+Rafael;[Santos, São Vicente];5;True;True
+Daniela;Jardim das Flores;0;True;False
+Fernanda;Taubaté;0;True;False
+Gustavo;[Ribeirão Preto, São José];4;True;True
+Amanda;Ubatuba;0;True;False
+Clara;São Paulo;0;True;False
+Rodrigo;Campinas;0;True;False
+Vanessa;[Curitiba, Londrina, Maringá, Cascavel];4;True;True
+Bruno;Curitiba;0;True;False
+Tatiana;[Belo Horizonte, Contagem];3;True;True
+Carlos;Belo Horizonte;0;True;False
+Larissa;[Fortaleza, Sobral];4;True;True
+Thiago;Fortaleza;0;True;False
+Pedro;[Porto Alegre, Canoas, Gravataí, Novo Hamburgo];3;True;True
+Gabriela;Porto Alegre;0;True;False
+Lucas;[Florianópolis, Joinville, Blumenau];4;True;True
+Eduarda;Florianópolis;0;True;False
+Rafael;Blumenau;0;True;False
+Marcelo;[Salvador, Feira de Santana, Ilhéus];4;True;True
+Juliana;Salvador;0;True;False
+Daniel;Feira de Santana;0;True;False
+Paulo;Ubatuba;4;True;True
+Julia;Jardim das Flores;0;True;False
+Matheus;Taubaté;0;True;False
+Leonardo;[São Paulo, Campinas];5;True;True
+Thiago;[Ribeirão Preto, São Carlos];4;True;True
+Beatriz;Jardim das Flores;0;True;False
+Larissa;Caraguá;0;True;False
+Felipe;Taubaté;0;True;False
+Eduardo;São José;0;True;False
+Juliana;[São Paulo, Santos];4;True;True
+Lucas;Campinas;0;True;False
+Natália;Taubaté;0;True;False
+Bruno;[Ubatuba, Caraguá];4;True;True
+Cintia;Jardim das Flores;0;True;False
+Samuel;São José;0;True;False
+Victor;[São José, Ribeirão Preto];4;True;True
+Carolina;Campinas;0;True;False
+Camila;[Manaus, Belém, Santarém];3;True;True
+Jorge;Manaus;0;True;False
+Alice;Belém;0;True;False
+Maria;[Jardim das Flores, São José];4;True;True
+Pedro;Caraguá;4;True;True
+Joao;Jardim das Flores;0;True;False
+Noé;Caraguá;0;True;False
+Ana;São José;3;True;True
+Henrique;[Goiânia, Anápolis, Brasília];4;True;True
+Fernanda;Goiânia;0;True;False
+Luiza;São José;0;True;False
+Marcos;Taubaté;0;True;False
+Gabriel;Jardim das Flores;2;True;True
+Amanda;São José;0;True;False
+Rafael;Ubatuba;0;True;False
+Carla;[Caraguá, Taubaté];3;True;True
+Thiago;Taubaté;0;True;False
+Renata;São José;0;True;False
+Ricardo;Brasília;0;True;False
+Luana;[São Luís, Teresina, Parnaíba];4;True;True
+Mateus;São Luís;0;True;False
+Vitor;[Natal, Mossoró, Caicó];3;True;True
+Amanda;Natal;0;True;False
+Giovana;Mossoró;0;True;False
+André;[Recife, Olinda, Jaboatão];4;True;True
+Paula;Recife;0;True;False
+Gustavo;Olinda;0;True;False
+Leandro;[Maceió, Arapiraca];4;True;True
+Carlos;Ubatuba;4;True;True
+Lucas;Jardim das Flores;0;True;False
+Fernanda;Caraguá;0;True;False
+Bruna;Taubaté;3;True;True
+Ricardo;Ubatuba;0;True;False
+Ana;Maceió;0;True;False
+Felipe;Arapiraca;0;True;False
+Sofia;[João Pessoa, Campina Grande];3;True;True
+Murilo;João Pessoa;0;True;False
+Letícia;Campina Grande;0;True;False
