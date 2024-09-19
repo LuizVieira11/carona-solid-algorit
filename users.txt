@@ -1,4 +1,4 @@
-Maria;[Jardim das Flores, São José];4;True;True
+Maria;['Jardim das Flores', 'São José'];4;True;True
 Pedro;Caraguá;4;True;True
 Joao;Jardim das Flores;0;True;False
 Noé;Caraguá;0;True;False
