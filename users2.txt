@@ -1,0 +1,20 @@
+Maria;['Jardim das Flores', 'São José'];4;True;True
+Pedro;Caraguá;4;True;True
+Joao;Jardim das Flores;0;True;False
+Noé;Caraguá;0;True;False
+Ana;São José;3;True;True
+Carlos;Ubatuba;4;True;True
+Lucas;Jardim das Flores;0;True;False
+Fernanda;Caraguá;0;True;False
+Bruna;Taubaté;3;True;True
+Ricardo;Ubatuba;0;True;False
+Luiza;São José;0;True;False
+Marcos;Taubaté;0;True;False
+Gabriel;Jardim das Flores;2;True;True
+Amanda;São José;0;True;False
+Rafael;Ubatuba;0;True;False
+Carla;Caraguá;3;True;True
+Thiago;Taubaté;0;True;False
+Renata;São José;0;True;False
+Paulo;Ubatuba;4;True;True
+Julia;Jardim das Flores;0;True;False
