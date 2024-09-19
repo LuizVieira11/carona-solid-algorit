@@ -9,6 +9,7 @@ os.system('cls') or None
 arquivo=open('users.txt','r',encoding='utf-8')
 
 class User:
+    #SELECT * FROM users WHERE willTravel = True
     def __init__(self, name, destination=[], maxPassengers=0, reservedSeats=0, willTravel=False, isDriver=False):
         self.name = name
         self.destination = destination
@@ -20,8 +21,8 @@ class User:
     def __str__(self):
         return f"{self.name}, {self.destination}"
 
-passageiros = set([])
-motoristas = set([])
+passageiros = []
+motoristas = []
 
 while True:
     linha=arquivo.readline()
@@ -34,10 +35,10 @@ while True:
     list = args[1]
     
     if eval(args[4]):
-        motoristas.add(User(name=args[0], destination=list, maxPassengers=int(args[2]), 
+        motoristas.append(User(name=args[0], destination=list, maxPassengers=int(args[2]), 
                                reservedSeats=0, willTravel=eval(args[3]), isDriver=eval(args[4])))
     else:
-        passageiros.add(User(name=args[0], destination=list, maxPassengers=0, 
+        passageiros.append(User(name=args[0], destination=list, maxPassengers=0, 
                                 reservedSeats=0, willTravel=eval(args[3]), isDriver=eval(args[4])))
 
 G.add_nodes_from(passageiros, bipartite=0)  # Adicionando objetos inteiros
@@ -58,7 +59,7 @@ for p in passageiros:
         motorista_selecionado = motoristas_disponiveis[0]
         motorista_selecionado.reservedSeats += 1
         arestas.append((motorista_selecionado, p))  # Conecta motorista e passageiro no grafo
-        
+        #Relacionando os motoristas no dicionário
         if motorista_selecionado not in associacao_motoristas:
             associacao_motoristas[motorista_selecionado] = []
         associacao_motoristas[motorista_selecionado].append(p)
@@ -73,26 +74,21 @@ labels = {node: str(node) for node in G.nodes}
 nx.draw_networkx_labels(G, pos, labels)
 plt.show()
 
-# Exibindo as associações
-# print("Emparelhamento Motoristas e Passageiros:")
-# for motorista, passageiro in associacao_motoristas.items():
-#     passageiros_nomes = [p.name for p in associacao_motoristas[motorista]]
-#     print(f"Motorista {motorista} está levando os passageiros: {', '.join(passageiros_nomes)}")
-
 for m in motoristas:
     if m in associacao_motoristas:
         passageiros_nomes = [p.name for p in associacao_motoristas[m]]
-        print(f'Motorista: {m.name}\nDestino: {m.destination}\nPassageiros: {passageiros_nomes}\n\n')
+        print(f'Motorista: {m.name}\nDestino: {m.destination}\nPassageiros: {passageiros_nomes}\n')
 
-passageiros_sem_motorista = set(passageiros)
-motoristas_sem_passageiro = set([])
+passageiros_sem_motorista = passageiros
+motoristas_sem_passageiro = []
 for m in motoristas:
-    for p in passageiros:
-        if m in associacao_motoristas:
-            if p in associacao_motoristas[m]:
+    if m in associacao_motoristas:
+        for p in associacao_motoristas[m]:
+            if p in passageiros_sem_motorista:
                 passageiros_sem_motorista.remove(p)
-        else:
-            motoristas_sem_passageiro.add(m)
+    else:
+        if m not in motoristas_sem_passageiro:
+            motoristas_sem_passageiro.append(m)
 
 # Lidando com passageiros sem motorista
 passageiros_nomes = [p.name for p in passageiros_sem_motorista]
@@ -100,4 +96,4 @@ motoristas_nomes = [m.name for m in motoristas_sem_passageiro]
 print("\nPassageiros sem motorista:")
 print(", ".join(passageiros_nomes) if passageiros_sem_motorista else "Todos os passageiros foram emparelhados com motoristas.")
 print("\nMotoristas sem passageiro:")
-print(", ".join(motoristas_nomes) if motoristas_sem_passageiro else "Todos os motoristas foram emparelhados com passageiros.")
+print(", ".join(motoristas_nomes) if motoristas_sem_passageiro else "Todos os motoristas foram emparelhados com passageiros.\n\n")
