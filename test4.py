@@ -32,7 +32,10 @@ while True:
         break
     args = linha.split(";")
     
-    list = args[1]
+    if "," in args[1]:
+        list = args[1].split(",")
+    else:
+        list = args[1]
     
     if eval(args[4]):
         motoristas.append(User(name=args[0], destination=list, maxPassengers=int(args[2]), 
