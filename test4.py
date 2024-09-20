@@ -1,25 +1,14 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 import os.path
+import user as u
+
 
 # Criando um grafo bipartido
 G = nx.Graph()
 
 os.system('cls') or None
 arquivo=open('users.txt','r',encoding='utf-8')
-
-class User:
-    #SELECT * FROM users WHERE willTravel = True
-    def __init__(self, name, destination=[], maxPassengers=0, reservedSeats=0, willTravel=False, isDriver=False):
-        self.name = name
-        self.destination = destination
-        self.maxPassengers = maxPassengers
-        self.reservedSeats = reservedSeats
-        self.willTravel = willTravel
-        self.isDriver = isDriver
-        
-    def __str__(self):
-        return f"{self.name}, {self.destination}"
 
 passageiros = []
 motoristas = []
@@ -38,10 +27,10 @@ while True:
         list = args[1]
     
     if eval(args[4]):
-        motoristas.append(User(name=args[0], destination=list, maxPassengers=int(args[2]), 
+        motoristas.append(u.User(name=args[0], destination=list, maxPassengers=int(args[2]), 
                                reservedSeats=0, willTravel=eval(args[3]), isDriver=eval(args[4])))
     else:
-        passageiros.append(User(name=args[0], destination=list, maxPassengers=0, 
+        passageiros.append(u.User(name=args[0], destination=list, maxPassengers=0, 
                                 reservedSeats=0, willTravel=eval(args[3]), isDriver=eval(args[4])))
 
 G.add_nodes_from(passageiros, bipartite=0)  # Adicionando objetos inteiros
