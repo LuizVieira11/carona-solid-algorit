@@ -1,0 +1,40 @@
+Joana;São Paulo,Campinas,Santos;4;true;true
+Ana;Maceió;0;true;false
+Leandro;Maceió,Arapiraca;4;true;true
+Murilo;João Pessoa;0;true;false
+Gabriela;Porto Alegre;0;true;false
+Felipe;Arapiraca;0;true;false
+Sofia;João Pessoa,Campina Grande;3;true;true
+Rodrigo;Campinas;0;true;false
+Vanessa;Curitiba,Londrina,Maringá,Cascavel;4;true;true
+Thiago;Fortaleza;0;true;false
+Pedro;Porto Alegre,Canoas,Gravataí,Novo Hamburgo;3;true;true
+Lucas;Florianópolis,Joinville,Blumenau;4;true;true
+Felipe;Rio de Janeiro,Niterói,Petrópolis;3;true;true
+Clara;São Paulo;0;true;false
+Eduarda;Florianópolis;0;true;false
+Rafael;Blumenau;0;true;false
+Marcelo;Salvador,Feira de Santana,Ilhéus;4;true;true
+Juliana;Salvador;0;true;false
+Daniel;Feira de Santana;0;true;false
+Camila;Manaus,Belém,Santarém;3;true;true
+Jorge;Manaus;0;true;false
+Alice;Belém;0;true;false
+Henrique;Goiânia,Anápolis,Brasília;4;true;true
+Luana;São Luís,Teresina,Parnaíba;4;true;true
+Mateus;São Luís;0;true;false
+Vitor;Natal,Mossoró,Caicó;3;true;true
+Amanda;Natal;0;true;false
+Giovana;Mossoró;0;true;false
+Bruno;Curitiba;0;true;false
+Tatiana;Belo Horizonte,Contagem;3;true;true
+André;Recife,Olinda,Jaboatão;4;true;true
+Paula;Recife;0;true;false
+Gustavo;Olinda;0;true;false
+Letícia;Campina Grande;0;true;false
+Carlos;Belo Horizonte;0;true;false
+Larissa;Fortaleza,Sobral;4;true;true
+Fernanda;Goiânia;0;true;false
+Ricardo;Brasília;0;true;false
+Mauricio;Rio de Janeiro;0;true;false
+Neto;Niterói;0;true;false
