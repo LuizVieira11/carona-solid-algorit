@@ -9,6 +9,8 @@ Esse feito abrange muito o pensamento de custo, ou seja, caso numa carona seja d
 Caso o ponto de vista principal fosse a melhora da sustentabilidade do planeta, a redução da emissão de gases e a melhora na mobilidade, o correto seria um algoritmo de fluxo máximo.  
 Porém esse tipo de algoritmo com esse pensamento não faz sentido, visto que se eu tenho um fluxo máximo de emparelhamento, é capaz que houveram motoristas sem passageiros, e estes, estarão andandode carro na rua do mesmo jeito.
 
+Como um modo de melhorar a apresentação em Flutter, foi desenvolvido o mesmo algoritmo em dart, visto que não temos planejamento momentâneo em realizar a utilização de APIs para acesso em banco de dados ou conexão de tecnologias.  s
+
 ## O algoritmo
 
 A principal biblioteca utilizada para a fácil implementação dos grafos bipartidos foi a biblioteca NetworkX, com ela é possível realizar a criação e montagem de um grafo utilizando funções para uma organização prática do algoritmo.  
