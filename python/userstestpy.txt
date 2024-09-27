@@ -1,0 +1,40 @@
+Joana;São Paulo;4;True;True
+Ana;Maceió;0;True;False
+Leandro;Maceió;4;True;True
+Murilo;João Pessoa;0;True;False
+Gabriela;Porto Alegre;0;True;False
+Felipe;Arapiraca;0;True;False
+Sofia;João Pessoa;3;True;True
+Rodrigo;Campinas;0;True;False
+Vanessa;Curitiba;4;True;True
+Thiago;Fortaleza;0;True;False
+Pedro;Porto Alegre;3;True;True
+Lucas;Florianópolis;4;True;True
+Felipe;Rio de Janeiro;3;True;True
+Clara;São Paulo;0;True;False
+Eduarda;Florianópolis;0;True;False
+Rafael;Blumenau;0;True;False
+Marcelo;Salvador;4;True;True
+Juliana;Salvador;0;True;False
+Daniel;Feira de Santana;0;True;False
+Camila;Manaus;3;True;True
+Jorge;Manaus;0;True;False
+Alice;Belém;0;True;False
+Henrique;Goiânia;4;True;True
+Luana;São Luís;4;True;True
+Mateus;São Luís;0;True;False
+Vitor;Natal;3;True;True
+Amanda;Natal;0;True;False
+Giovana;Mossoró;0;True;False
+Bruno;Curitiba;0;True;False
+Tatiana;Belo Horizonte;3;True;True
+André;Recife;4;True;True
+Paula;Recife;0;True;False
+Gustavo;Olinda;0;True;False
+Letícia;Campina Grande;0;True;False
+Carlos;Belo Horizonte;0;True;False
+Larissa;Fortaleza;4;True;True
+Fernanda;Goiânia;0;True;False
+Ricardo;Brasília;0;True;False
+Mauricio;Rio de Janeiro;0;True;False
+Neto;Niterói;0;True;False

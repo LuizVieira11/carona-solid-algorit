@@ -8,7 +8,7 @@ import user as u
 G = nx.Graph()
 
 os.system('cls') or None
-arquivo=open('users.txt','r',encoding='utf-8')
+arquivo=open('userstestpy.txt','r',encoding='utf-8')
 
 passageiros = []
 motoristas = []
