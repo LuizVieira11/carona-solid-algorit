@@ -7,7 +7,7 @@ import user as u
 # Criando um grafo bipartido
 G = nx.Graph()
 
-os.system('cls') or None
+# os.system('cls') or None
 arquivo=open('userstestpy2.txt','r',encoding='utf-8')
 
 passageiros = []
@@ -37,6 +37,7 @@ G.add_nodes_from(passageiros, bipartite=0)  # Adicionando objetos inteiros
 G.add_nodes_from(motoristas, bipartite=1)  # Adicionando objetos inteiros       
 
 arestas = []
+passageiros_sem_motorista = passageiros
 
 # Criando o retorno de associações motorista-passageiros
 associacao_motoristas = {}
@@ -47,7 +48,6 @@ for p in passageiros:
                               and m.reservedSeats < m.maxPassengers]
     if motoristas_disponiveis:
         # Ordena os motoristas pela quantidade de vagas disponíveis, para priorizar motoristas menos ocupados
-        motoristas_disponiveis.sort(key=lambda m: m.reservedSeats)
         motorista_selecionado = motoristas_disponiveis[0]
         motorista_selecionado.reservedSeats += 1
         arestas.append((motorista_selecionado, p))  # Conecta motorista e passageiro no grafo
@@ -55,7 +55,6 @@ for p in passageiros:
         if motorista_selecionado not in associacao_motoristas:
             associacao_motoristas[motorista_selecionado] = []
         associacao_motoristas[motorista_selecionado].append(p)
-            
 
 G.add_edges_from(arestas)
 
@@ -71,7 +70,7 @@ for m in motoristas:
         passageiros_nomes = [p.name for p in associacao_motoristas[m]]
         print(f'Motorista: {m.name}\nDestino: {m.destination}\nPassageiros: {passageiros_nomes}\n')
 
-passageiros_sem_motorista = passageiros
+
 motoristas_sem_passageiro = []
 for m in motoristas:
     if m in associacao_motoristas:

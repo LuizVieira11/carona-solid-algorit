@@ -1,0 +1,23 @@
+Maria;Maceió;0;True;False
+Joana;Maceió;0;True;False
+Ana Maria;Maceió;0;True;False
+Ana;Maceió;0;True;False
+Mandala;Maceió;0;True;False
+Jorge;Maceió;0;True;False
+Carlos;Maceió;0;True;False
+Henrique;Maceió;0;True;False
+Vinicius;Maceió;0;True;False
+Pedro;Maceió;0;True;False
+Ayla;Maceió;0;True;False
+Laura;Maceió;0;True;False
+Patricia;Maceió;0;True;False
+Pedrinho;Maceió,Arapiraca;4;True;True
+Arthur;Maceió,Arapiraca;4;True;True
+Julio;Maceió,Arapiraca;4;True;True
+Lucas;Maceió,Arapiraca;4;True;True
+Leo;Maceió,Arapiraca;4;True;True
+Luiz;Maceió,Arapiraca;4;True;True
+Leonardo;Maceió,Arapiraca;4;True;True
+Porreta;Maceió,Arapiraca;4;True;True
+Morango;Maceió,Arapiraca;4;True;True
+Leandro;Maceió,Arapiraca;4;True;True
