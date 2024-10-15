@@ -78,9 +78,9 @@ void main() {
   });
 
   print(
-      '\nPassageiros: ${passageiros.map((p) => '${p.name}, (${p.destination[0]})').join(', ')}');
+      '\nPassageiros: ${passageiros.map((p) => '${p.name} (${p.destination[0]})').join(', ')}');
   print(
-      '\nMotoristas: ${motoristas.map((m) => '${m.name}, , (${m.destination[0]})').join(', ')}\n');
+      '\nMotoristas: ${motoristas.map((m) => '${m.name} (${m.destination[0]})').join(', ')}\n');
 
   arestas.forEach((driver, passengers) {
     print(
