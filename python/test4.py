@@ -8,7 +8,7 @@ import user as u
 G = nx.Graph()
 
 os.system('cls') or None
-arquivo=open('userspy.txt','r',encoding='utf-8')
+arquivo=open('userstestpy.txt','r',encoding='utf-8')
 
 passageiros = []
 motoristas = []
@@ -55,7 +55,6 @@ for p in passageiros:
         if motorista_selecionado not in associacao_motoristas:
             associacao_motoristas[motorista_selecionado] = []
         associacao_motoristas[motorista_selecionado].append(p)
-            
 
 G.add_edges_from(arestas)
 

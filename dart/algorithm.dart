@@ -29,9 +29,9 @@ void main() {
   List<User> passageiros = [];
   List<User> motoristas = [];
   Map<User, List<User>> arestas = {};
-//C:\\Users\\Luiz Gustav\\Desktop\\Programas\\carona-solid-algorit\\dart\\users.txt
+//C:\\dev\\Blocos de notas\\carona-solid-algorit\\dart\\users.txt
   String path =
-      'C:\\dev\\Blocos de notas\\carona-solid-algorit\\dart\\users.txt';
+      'C:\\Users\\Luiz Gustav\\Desktop\\Programas\\carona-solid-algorit\\dart\\users__old.txt';
 
   File file = File(path);
   List<String> log = file.readAsLinesSync();

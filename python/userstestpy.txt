@@ -1,40 +1,76 @@
-Joana;São Paulo;4;True;True
-Ana;Maceió;0;True;False
-Leandro;Maceió;4;True;True
-Murilo;João Pessoa;0;True;False
-Gabriela;Porto Alegre;0;True;False
-Felipe;Arapiraca;0;True;False
-Sofia;João Pessoa;3;True;True
-Rodrigo;Campinas;0;True;False
-Vanessa;Curitiba;4;True;True
-Thiago;Fortaleza;0;True;False
-Pedro;Porto Alegre;3;True;True
-Lucas;Florianópolis;4;True;True
-Felipe;Rio de Janeiro;3;True;True
-Clara;São Paulo;0;True;False
-Eduarda;Florianópolis;0;True;False
-Rafael;Blumenau;0;True;False
-Marcelo;Salvador;4;True;True
-Juliana;Salvador;0;True;False
-Daniel;Feira de Santana;0;True;False
-Camila;Manaus;3;True;True
-Jorge;Manaus;0;True;False
-Alice;Belém;0;True;False
-Henrique;Goiânia;4;True;True
-Luana;São Luís;4;True;True
-Mateus;São Luís;0;True;False
-Vitor;Natal;3;True;True
-Amanda;Natal;0;True;False
-Giovana;Mossoró;0;True;False
-Bruno;Curitiba;0;True;False
-Tatiana;Belo Horizonte;3;True;True
-André;Recife;4;True;True
-Paula;Recife;0;True;False
-Gustavo;Olinda;0;True;False
-Letícia;Campina Grande;0;True;False
-Carlos;Belo Horizonte;0;True;False
-Larissa;Fortaleza;4;True;True
-Fernanda;Goiânia;0;True;False
-Ricardo;Brasília;0;True;False
-Mauricio;Rio de Janeiro;0;True;False
-Neto;Niterói;0;True;False
+Larissa;Votorantim,Boituva,Itapetininga;4;True;True
+Mariana;Porto Feliz,Tatuí,Cerquilho;4;True;True
+Camila;Piedade,Tietê,Pilar do Sul;4;True;True
+Bruna;Cerquilho,Boituva,Porto Feliz;4;True;True
+Fernanda;Tietê,Votorantim,Piedade;4;True;True
+Juliana;Itapetininga,Porto Feliz,Tatuí;4;True;True
+Patrícia;Pilar do Sul,Boituva,Cerquilho;4;True;True
+Natália;Votorantim,Porto Feliz,Tietê;4;True;True
+Daniela;Tatuí,Piedade,Itapetininga;4;True;True
+Renata;Boituva,Pilar do Sul,Cerquilho;4;True;True
+Isabela;Porto Feliz,Votorantim,Tietê;4;True;True
+Ana;Itapetininga,Tatuí,Piedade;4;True;True
+Roberta;Cerquilho,Pilar do Sul,Boituva;4;True;True
+Larissa;Votorantim,Boituva,Itapetininga;4;True;True
+Mariana;Porto Feliz,Tatuí,Cerquilho;4;True;True
+Camila;Piedade,Tietê,Pilar do Sul;4;True;True
+Bruna;Cerquilho,Boituva,Porto Feliz;4;True;True
+Fernanda;Tietê,Votorantim,Piedade;4;True;True
+Juliana;Itapetininga,Porto Feliz,Tatuí;4;True;True
+Patrícia;Pilar do Sul,Boituva,Cerquilho;4;True;True
+Natália;Votorantim,Porto Feliz,Tietê;4;True;True
+Daniela;Tatuí,Piedade,Itapetininga;4;True;True
+Renata;Boituva,Pilar do Sul,Cerquilho;4;True;True
+Isabela;Porto Feliz,Votorantim,Tietê;4;True;True
+Ana;Itapetininga,Tatuí,Piedade;4;True;True
+Roberta;Cerquilho,Pilar do Sul,Boituva;4;True;True
+Gabriel;Piedade;0;True;False
+Lucas;Boituva;0;True;False
+Matheus;Porto Feliz;0;True;False
+Felipe;Tatuí;0;True;False
+Rafael;Cerquilho;0;True;False
+Bruno;Tietê;0;True;False
+Thiago;Itapetininga;0;True;False
+Daniel;Pilar do Sul;0;True;False
+Pedro;Votorantim;0;True;False
+Ricardo;Porto Feliz;0;True;False
+João;Piedade;0;True;False
+Carlos;Tietê;0;True;False
+André;Boituva;0;True;False
+Henrique;Tatuí;0;True;False
+Marcelo;Itapetininga;0;True;False
+Vitor;Cerquilho;0;True;False
+Rodrigo;Pilar do Sul;0;True;False
+Leonardo;Votorantim;0;True;False
+Guilherme;Porto Feliz;0;True;False
+Murilo;Boituva;0;True;False
+Fábio;Tietê;0;True;False
+Leandro;Piedade;0;True;False
+Diego;Itapetininga;0;True;False
+Eduardo;Cerquilho;0;True;False
+Fernando;Tatuí;0;True;False
+Caio;Pilar do Sul;0;True;False
+Hugo;Votorantim;0;True;False
+Alex;Boituva;0;True;False
+Marcos;Porto Feliz;0;True;False
+Vinícius;Tatuí;0;True;False
+Sergio;Cerquilho;0;True;False
+Renato;Piedade;0;True;False
+Maurício;Tietê;0;True;False
+Igor;Pilar do Sul;0;True;False
+Alan;Votorantim;0;True;False
+Samuel;Boituva;0;True;False
+Douglas;Itapetininga;0;True;False
+Fabrício;Porto Feliz;0;True;False
+Otávio;Tatuí;0;True;False
+Paulo;Cerquilho;0;True;False
+Roberto;Piedade;0;True;False
+Bruno;Boituva;0;True;False
+Diogo;Tietê;0;True;False
+Alexandre;Itapetininga;0;True;False
+Adriano;Pilar do Sul;0;True;False
+Cláudio;Votorantim;0;True;False
+Eduardo;Porto Feliz;0;True;False
+Júlio;Boituva;0;True;False
+Carlos;Tatuí;0;True;False
+Rogério;Cerquilho;0;True;False
