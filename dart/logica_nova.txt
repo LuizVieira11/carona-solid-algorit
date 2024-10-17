@@ -1,0 +1,7 @@
+Para encontrar os motoristas que poderiam ter saído com uma carona o algoritmo vai fazer o seguinte.
+Primeiro, o objetivo primario é conectar TODO MUNDO, então sempre o igualitário é o que irá retornar para o usuário.
+
+Logo após passar pelo algoritmo com esse pensamento, será realizada outra passagem, sem a distribuição, para ver se haverá motoristas sem passageiros, caso haja, eles serão enviados como passageiros e visto se irão se ligar a alguém.
+
+Caso, por exemplo, houve 3 motoristas que não foram conectados com passageiros, após a virarem passageiros 2 foram conectados com motoristas, o retorno para todos os motoristas receberão a mensagem:
+"Hoje tivemos X motoristas para dar carona, porém 2 deles poderiam ser passageiros"
