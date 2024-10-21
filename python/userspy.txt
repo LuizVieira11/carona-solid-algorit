@@ -1,40 +1,19 @@
-Joana;São Paulo,Campinas,Santos;4;True;True
-Ana;Maceió;0;True;False
-Leandro;Maceió,Arapiraca;4;True;True
-Murilo;João Pessoa;0;True;False
-Gabriela;Porto Alegre;0;True;False
-Felipe;Arapiraca;0;True;False
-Sofia;João Pessoa,Campina Grande;3;True;True
-Rodrigo;Campinas;0;True;False
-Vanessa;Curitiba,Londrina,Maringá,Cascavel;4;True;True
-Thiago;Fortaleza;0;True;False
-Pedro;Porto Alegre,Canoas,Gravataí,Novo Hamburgo;3;True;True
-Lucas;Florianópolis,Joinville,Blumenau;4;True;True
-Felipe;Rio de Janeiro,Niterói,Petrópolis;3;True;True
-Clara;São Paulo;0;True;False
-Eduarda;Florianópolis;0;True;False
-Rafael;Blumenau;0;True;False
-Marcelo;Salvador,Feira de Santana,Ilhéus;4;True;True
-Juliana;Salvador;0;True;False
-Daniel;Feira de Santana;0;True;False
-Camila;Manaus,Belém,Santarém;3;True;True
-Jorge;Manaus;0;True;False
-Alice;Belém;0;True;False
-Henrique;Goiânia,Anápolis,Brasília;4;True;True
-Luana;São Luís,Teresina,Parnaíba;4;True;True
-Mateus;São Luís;0;True;False
-Vitor;Natal,Mossoró,Caicó;3;True;True
-Amanda;Natal;0;True;False
-Giovana;Mossoró;0;True;False
-Bruno;Curitiba;0;True;False
-Tatiana;Belo Horizonte,Contagem;3;True;True
-André;Recife,Olinda,Jaboatão;4;True;True
-Paula;Recife;0;True;False
-Gustavo;Olinda;0;True;False
-Letícia;Campina Grande;0;True;False
-Carlos;Belo Horizonte;0;True;False
-Larissa;Fortaleza,Sobral;4;True;True
-Fernanda;Goiânia;0;True;False
-Ricardo;Brasília;0;True;False
-Mauricio;Rio de Janeiro;0;True;False
-Neto;Niterói;0;True;False
+Carlos;Tatuí,Boituva,Cesário Lange;4;True;True
+Fernanda;Piedade,Pilar do Sul;2;True;True
+Marcelo;Votorantim,Porto Feliz;3;True;True
+Ana;Cerquilho,Boituva,Tietê;4;True;True
+João;Itapetininga,Cesário Lange,Tatuí;1;True;True
+Roberto;Tietê,Boituva;3;True;True
+Larissa;Sorocaba,Porto Feliz;4;True;True
+Mariana;Boituva;0;True;False
+Pedro;Tatuí;0;True;False
+Juliana;Piedade;0;True;False
+Lucas;Porto Feliz;0;True;False
+Carla;Cerquilho;0;True;False
+Bruno;Tietê;0;True;False
+Gabriel;Votorantim;0;True;False
+Renata;Tatuí;0;True;False
+Fernando;Itapetininga;0;True;False
+Camila;Pilar do Sul;0;True;False
+Gustavo;Boituva;0;True;False
+Luana;Porto Feliz;0;True;False
