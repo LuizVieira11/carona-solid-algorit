@@ -1,0 +1,29 @@
+Bruno;Votorantim;4;true;true
+Fernanda;Porto Feliz;4;true;true
+Renata;Tietê;0;true;false
+Rafael;Piedade;0;true;false
+Lucas;Votorantim;0;true;false
+Camila;Cerquilho;4;true;true
+Matheus;Porto Feliz;0;true;false
+Ana;Piedade;0;true;false
+Pedro;Itapetininga;0;true;false
+Gabriel;Boituva;0;true;false
+Patrícia;Pilar do Sul;0;true;false
+Thiago;Porto Feliz;4;true;true
+Bruna;Tietê;0;true;false
+Daniela;Votorantim;4;true;true
+Rodrigo;Boituva;0;true;false
+Juliana;Tatuí;0;true;false
+Henrique;Votorantim;4;true;true
+Natália;Porto Feliz;0;true;false
+Felipe;Tatuí;0;true;false
+Sergio;Cerquilho;4;true;true
+Murilo;Itapetininga;4;true;true
+Mariana;Tatuí;0;true;false
+Fábio;Votorantim;4;true;true
+Carlos;Boituva;0;true;false
+Marcelo;Piedade;0;true;false
+Eduardo;Pilar do Sul;0;true;false
+Leonardo;Porto Feliz;4;true;true
+Renato;Tietê;4;true;true
+Isabela;Piedade;0;true;false

@@ -1,19 +1,29 @@
-Carlos;Tatuí,Boituva,Cesário Lange;4;true;true
-Fernanda;Piedade,Pilar do Sul;2;true;true
-Marcelo;Votorantim,Porto Feliz;3;true;true
-Ana;Cerquilho,Boituva,Tietê;4;true;true
-João;Itapetininga,Cesário Lange,Tatuí;1;true;true
-Roberto;Tietê,Boituva;3;true;true
-Larissa;Sorocaba,Porto Feliz;4;true;true
-Mariana;Boituva;0;true;false
-Pedro;Tatuí;0;true;false
-Juliana;Piedade;0;true;false
-Lucas;Porto Feliz;0;true;false
-Carla;Cerquilho;0;true;false
-Bruno;Tietê;0;true;false
-Gabriel;Votorantim;0;true;false
-Renata;Tatuí;0;true;false
-Fernando;Itapetininga;0;true;false
-Camila;Pilar do Sul;0;true;false
-Gustavo;Boituva;0;true;false
-Luana;Porto Feliz;0;true;false
+Gabriel;Votorantim,Boituva,Itapetininga;4;true;true
+Lucas;Porto Feliz,Tatuí,Cerquilho;4;true;true
+Matheus;Tietê;0;true;false
+Bruno;Piedade;0;true;false
+Rafael;Votorantim;0;true;false
+Felipe;Cerquilho,Tietê;4;true;true
+Pedro;Porto Feliz;0;true;false
+Renata;Piedade;0;true;false
+Carla;Itapetininga;0;true;false
+Fernanda;Boituva;0;true;false
+Ana;Pilar do Sul;0;true;false
+Thiago;Porto Feliz,Votorantim;4;true;true
+Mariana;Tietê;0;true;false
+Daniela;Votorantim,Porto Feliz,Itapetininga;4;true;true
+Camila;Boituva;0;true;false
+Rodrigo;Tatuí;0;true;false
+Juliana;Votorantim;0;true;false
+Henrique;Itapetininga,Boituva;4;true;true
+Patrícia;Porto Feliz;0;true;false
+Natália;Tatuí;0;true;false
+Murilo;Cerquilho,Tietê,Piedade;4;true;true
+Leonardo;Itapetininga,Pilar do Sul;4;true;true
+Bruna;Tatuí;0;true;false
+Sergio;Votorantim,Porto Feliz;4;true;true
+Fábio;Boituva;0;true;false
+Eduardo;Pilar do Sul;0;true;false
+Renato;Porto Feliz,Votorantim,Tatuí;4;true;true
+Carlos;Piedade;0;true;false
+Marcelo;Cerquilho,Itapetininga,Pilar do Sul;4;true;true
