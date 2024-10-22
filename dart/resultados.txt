@@ -1,0 +1,57 @@
+Resultados algoritmo com várias cidades e distribuição:
+
+
+Passageiros: Matheus (Tietê), Bruno (Piedade), Rafael (Votorantim), Pedro (Porto Feliz), Renata (Piedade), Carla (Itapetininga), Fernanda (Boituva), Ana (Pilar do Sul), Mariana (Tietê), Camila (Boituva), Rodrigo (Tatuí), Juliana (Votorantim), Patrícia (Porto Feliz), Natália (Tatuí), Bruna (Tatuí), Fábio (Boituva), Eduardo (Pilar do Sul), Carlos (Piedade)
+
+Motoristas: Gabriel (Votorantim), Lucas (Porto Feliz), Felipe (Cerquilho), Thiago (Porto Feliz), Daniela (Votorantim), Henrique (Itapetininga), Murilo (Cerquilho), Leonardo (Itapetininga), Sergio (Votorantim), Renato (Porto Feliz), Marcelo (Cerquilho)
+
+Felipe, [Cerquilho, Tietê]: Matheus, Mariana
+Murilo, [Cerquilho, Tietê, Piedade]: Bruno, Renata, Carlos
+Gabriel, [Votorantim, Boituva, Itapetininga]: Rafael, Camila
+Lucas, [Porto Feliz, Tatuí, Cerquilho]: Pedro, Natália
+Daniela, [Votorantim, Porto Feliz, Itapetininga]: Carla
+Henrique, [Itapetininga, Boituva]: Fernanda, Fábio
+Leonardo, [Itapetininga, Pilar do Sul]: Ana
+Renato, [Porto Feliz, Votorantim, Tatuí]: Rodrigo, Bruna
+Thiago, [Porto Feliz, Votorantim]: Juliana
+Sergio, [Votorantim, Porto Feliz]: Patrícia
+Marcelo, [Cerquilho, Itapetininga, Pilar do Sul]: Eduardo
+
+Todos os passageiros foram emparelhados
+
+Todos os motoristas foram emparelhados
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Resultados algoritmo com várias cidades e SEM distribuição:
+
+
+Passageiros: Matheus (Tietê), Bruno (Piedade), Rafael (Votorantim), Pedro (Porto Feliz), Renata (Piedade), Carla (Itapetininga), Fernanda (Boituva), Ana (Pilar do Sul), Mariana (Tietê), Camila (Boituva), Rodrigo (Tatuí), Juliana (Votorantim), Patrícia (Porto Feliz), Natália (Tatuí), Bruna (Tatuí), Fábio (Boituva), Eduardo (Pilar do Sul), Carlos (Piedade)
+
+Motoristas: Gabriel (Votorantim), Lucas (Porto Feliz), Felipe (Cerquilho), Thiago (Porto Feliz), Daniela (Votorantim), Henrique (Itapetininga), Murilo (Cerquilho), Leonardo (Itapetininga), Sergio (Votorantim), Renato (Porto Feliz), Marcelo (Cerquilho)
+
+Felipe, [Cerquilho, Tietê]: Mariana
+Murilo, [Cerquilho, Tietê, Piedade]: Carlos
+Gabriel, [Votorantim, Boituva, Itapetininga]: Fábio
+Lucas, [Porto Feliz, Tatuí, Cerquilho]: Bruna
+Leonardo, [Itapetininga, Pilar do Sul]: Eduardo
+
+Todos os passageiros foram emparelhados
+
+Motoristas sem passageiros: Thiago, Daniela, Henrique, Sergio, Renato, Marcelo
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Resultados algoritmo com uma cidade e SEM distribuição:
+
+
+Passageiros: Renata (Tietê), Rafael (Piedade), Lucas (Votorantim), Matheus (Porto Feliz), Ana (Piedade), Pedro (Itapetininga), Gabriel (Boituva), Patrícia (Pilar do Sul), Bruna (Tietê), Rodrigo (Boituva), Juliana (Tatuí), Natália (Porto Feliz), Felipe (Tatuí), Mariana (Tatuí), Carlos (Boituva), Marcelo (Piedade), Eduardo (Pilar do Sul), Isabela (Piedade)
+
+Motoristas: Bruno (Votorantim), Fernanda (Porto Feliz), Camila (Cerquilho), Thiago (Porto Feliz), Daniela (Votorantim), Henrique (Votorantim), Sergio (Cerquilho), Murilo (Itapetininga), Fábio (Votorantim), Leonardo (Porto Feliz), Renato (Tietê)
+
+Renato, [Tietê]: Bruna
+Bruno, [Votorantim]: Lucas
+Fernanda, [Porto Feliz]: Natália
+Murilo, [Itapetininga]: Pedro
+
+Passageiros sem motoristas:  Rafael, Ana, Gabriel, Patrícia, Rodrigo, Juliana, Felipe, Mariana, Carlos, Marcelo, Eduardo, Isabela
+
+Motoristas sem passageiros: Camila, Thiago, Daniela, Henrique, Sergio, Fábio, Leonardo
